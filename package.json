@@ -52,6 +52,7 @@
   "type": "module",
   "dependencies": {
     "browser-sync-client": "^2.27.10",
+    "mysql": "^2.18.1",
     "watcher": "^1.2.0"
   }
 }
