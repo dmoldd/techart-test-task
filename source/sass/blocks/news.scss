@@ -1,0 +1,137 @@
+.news {
+  font-family: 'Open Sans';
+  text-align: left;
+}
+
+.news .container {
+  padding: 54px 200px 83px 200px;
+}
+
+.news__title {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 89.6px;
+  margin: 0;
+}
+
+.news__cards {
+  display: flex;
+  column-gap: 40px;
+  row-gap: 82px;
+  flex-wrap: wrap;
+}
+
+.news__card {
+  width: calc(50% - 20px);
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.news__card-date-time {
+  padding: 6px 18px;
+  width: fit-content;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  color: #6C6E7B;
+}
+
+.news__card-title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 43.58px;
+  color: #841844;
+}
+.news__card-desc {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #000;
+}
+
+.news__see-more {
+  padding: 16px 75px 16px 40px;
+  display: block;
+  width: fit-content;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  color: #fff;
+  border: 2px solid #9B407A;
+  border-radius: 100px;
+  text-transform: uppercase;
+  background-image: url('../img/news/card/arrow-pink.png');
+  background-repeat: no-repeat;
+  background-size: 25px auto;
+  background-position: top 50% right 37px;
+  color: #841844;
+  
+  &:hover {
+    background-color: #841844;
+    color: white;
+    background-image: url('../img/news/card/arrow-white.png');
+  }
+}
+
+.news__card:first-child .news__see-more {
+  background-color: #841844;
+  color: white;
+  background-image: url('../img/news/card/arrow-white.png');
+  
+  &:hover {
+    background-color: white;
+    color: #841844;
+    background-image: url('../img/news/card/arrow-pink.png');
+  }
+}
+
+.news__pagination {
+  margin: 83px 0 0 auto;
+  width: fit-content;
+  display: flex;
+  gap: 16px;
+}
+
+.news__pagination--back,
+.news__pagination-next {
+  border: none;
+  background-color: transparent;
+  width: 106px;
+  height: 53px;
+  background-repeat: no-repeat;
+  background-size: 24px 22px;
+  background-position: center center;
+}
+
+
+.news__pagination-items {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.news__pagination-item {
+  width: 56px;
+  height: 54px;
+  border: 2px solid #841844;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#841844;
+}
+
+.news__pagination-next {
+  background-image: url('./../../img/news/pagination/arrow-pink.png');
+  border: 2px solid #841844;
+  border-radius: 100px;
+}

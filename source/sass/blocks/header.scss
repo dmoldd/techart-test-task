@@ -1,0 +1,30 @@
+.header {
+  height: 157px;
+}
+
+.header .container {
+  padding: 40px 0 43px 200px;
+}
+
+.header__title {
+  display: flex;
+  width: fit-content;
+}
+
+.header__logo {
+  height: 66px;
+  width: 93px;
+}
+
+.header__title-text {
+  width: 273px;
+  margin: 0 0 0 24px;
+  font-family: Segoe UI;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36.96px;
+  letter-spacing: 0.125em;
+  text-align: left;
+  color: #2C145E;
+  text-transform: uppercase;
+}

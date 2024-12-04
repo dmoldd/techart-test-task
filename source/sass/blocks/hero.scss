@@ -1,0 +1,29 @@
+.hero {
+  height: 646px;
+  background-image: url('../img/hero/backgrounds/c6e252ce94fd757ae97522197c394239.jpg');
+  background-repeat: no-repeat;
+  background-size:  auto 1920px;
+  background-position: center -564px;
+  font-family: 'Open Sans';
+  color: #fff;
+}
+
+.hero .container {
+  padding: 218px 0 0 195px;
+}
+
+.hero__title {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 89.6px;
+  text-align: left;
+  margin: 0;
+}
+
+.hero__desc {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 51.2px;
+  text-align: left;
+  margin: 30px 0 0 0;
+}
